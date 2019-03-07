@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HITS LCO PORTAL.]">
+  <test name="end-to-end Testing(failed)">
+    <classes>
+      <class name="com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest">
+        <methods>
+          <include name="testPayment_PayForBoxPageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest">
+        <methods>
+          <include name="testPayment_AddPaymentPageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testProduct_ProductReconnectPageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Profile_MyProfilePageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testProfile_MyProfilePageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Profile_MyProfilePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+          <include name="testProduct_ProductDisconnectPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Renew_BeforeExpiryPageTest">
+        <methods>
+          <include name="testRenew_BeforeExpiryPageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Renew_BeforeExpiryPageTest -->
+    </classes>
+  </test> <!-- end-to-end Testing(failed) -->
+</suite> <!-- Failed suite [HITS LCO PORTAL.] -->

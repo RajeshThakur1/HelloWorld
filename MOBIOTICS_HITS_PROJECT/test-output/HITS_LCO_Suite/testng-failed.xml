@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HITS_LCO_Suite]">
+  <test name="LCO_Test(failed)">
+    <classes>
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest">
+        <methods>
+          <include name="testProduct_ProductReconnectPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Report_ExpiryReportPageTest">
+        <methods>
+          <include name="testReport_ExpiryReportPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Report_ExpiryReportPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_ActivatePendingPlanPageTest">
+        <methods>
+          <include name="testProduct_ActivatePendingPlanPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ActivatePendingPlanPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Payment_ListPaymentPageTest">
+        <methods>
+          <include name="testPayment_ListPaymentPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_ListPaymentPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_RetrackActiveDevicePageTest">
+        <methods>
+          <include name="testDevice_RetrackActiveDevicePageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_RetrackActiveDevicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_RetrackDeActiveDevicePageTest">
+        <methods>
+          <include name="testDevice_RetrackDeActiveDevicePageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_RetrackDeActiveDevicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest">
+        <methods>
+          <include name="testProduct_ProductDisconnectPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest">
+        <methods>
+          <include name="testPayment_PayForBoxPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Customer_ListCustomerPageTest">
+        <methods>
+          <include name="testCustomer_ListCustomerPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Customer_ListCustomerPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_OSDMessageServicePageTest">
+        <methods>
+          <include name="testDevice_OSDMessageServicePageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_OSDMessageServicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_AddAla_CartePageTest">
+        <methods>
+          <include name="testProduct_AddAla_CartePageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_AddAla_CartePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest">
+        <methods>
+          <include name="testProduct_AddBasePackPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Renew_BeforeExpiryPageTest">
+        <methods>
+          <include name="testRenew_BeforeExpiryPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Renew_BeforeExpiryPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_ListDevicePageTest">
+        <methods>
+          <include name="testDevice_ListDevicePageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_ListDevicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Ticket_CreateTicketPageTest">
+        <methods>
+          <include name="testTicket_CreateTicketPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Ticket_CreateTicketPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Renew_AfterExpiryPageTest">
+        <methods>
+          <include name="testRenew_AfterExpiryPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Renew_AfterExpiryPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_HardWareReplacementPageTest">
+        <methods>
+          <include name="testDevice_HardWareReplacementPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_HardWareReplacementPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Profile_MyProfilePageTest">
+        <methods>
+          <include name="testProfile_MyProfilePageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Profile_MyProfilePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Ticket_ListTicketPageTest">
+        <methods>
+          <include name="testTicket_ListTicketPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Ticket_ListTicketPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Report_JobReportPageTest">
+        <methods>
+          <include name="testReport_JobReportPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Report_JobReportPageTest -->
+    </classes>
+  </test> <!-- LCO_Test(failed) -->
+</suite> <!-- Failed suite [HITS_LCO_Suite] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IMCL-LOC PORTAL]">
+  <test name="TestCases(failed)">
+    <classes>
+      <class name="com.IMCL.tests.ToDownloadReportSchedulesButtonTest">
+        <methods>
+          <include name="testToDownloadActivationButtonTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.ToDownloadReportSchedulesButtonTest -->
+      <class name="com.IMCL.tests.Plans_ReconnectThePlanPackTest">
+        <methods>
+          <include name="testPlans_ReconnectThePlanPackTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.Plans_ReconnectThePlanPackTest -->
+      <class name="com.IMCL.tests.AddCreditToTheAccountPlanPageTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testAddCreditToTheAccountPlanPageTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddCreditToTheAccountPlanPageTest -->
+      <class name="com.IMCL.tests.PostPaidPlan_BillsPageTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testPostPaidPlan_BillsPageTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.PostPaidPlan_BillsPageTest -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [IMCL-LOC PORTAL] -->

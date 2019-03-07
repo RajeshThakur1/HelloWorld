@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminDashBoardPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.Operators_LCOList"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.Operators_MSOList"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.Operators_DPOList"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_AddonTest"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_AddBasePack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_ExpiryRenewPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_ExpiredRenewPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_CreateCustomerPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_RetrackPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_ReconnectPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_DisconnectPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_HardwareReplacementPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_SendOSDPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportCore_ListCustomerPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportCore_ListDevicePack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListConnectionPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListActivationsPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListSuspensionPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportCore_JobReportPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsFinance_ListPaymentPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsFinance_PayForBoxPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminMessage_ListMessagePack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminSubUser_AddSubUserPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminSubUser_ModifySubUserPack"/>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBank_ListBankPack"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

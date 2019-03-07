@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.IMCL.tests.HardWareMenu1_RetrackTest"/>
+      <class name="com.IMCL.tests.ModifyCustomerPageTest"/>
+      <class name="com.IMCL.tests.Plans_ReconnectThePlanPackTest"/>
+      <class name="com.IMCL.tests.DownloadRecepitsPageTest"/>
+      <class name="com.IMCL.tests.PostPaidMenu_PostPaidPaymentPageTest"/>
+      <class name="com.IMCL.tests.TickectsPageTest"/>
+      <class name="com.IMCL.tests.AddRenewHDBasePackPageValidationTest"/>
+      <class name="com.IMCL.tests.AddRenewPlanPageValidationTest"/>
+      <class name="com.IMCL.tests.AddAddOnPackValidationTest"/>
+      <class name="com.IMCL.tests.AddBasePackValidationTest"/>
+      <class name="com.IMCL.tests.AddCreditFromWalletToAccountPlanPage"/>
+      <class name="com.IMCL.tests.ChangePasswordPageTest"/>
+      <class name="com.IMCL.tests.ToDownloadReportSchedulesButtonTest"/>
+      <class name="com.IMCL.tests.AddPlansDisconnectPlanPageTest"/>
+      <class name="com.IMCL.tests.ProfileChangingPageTest"/>
+      <class name="com.IMCL.tests.AddRenewChangeBasePackPlanValidationTest"/>
+      <class name="com.IMCL.tests.AddCreditFromCardToTheAccountPlanPageTest"/>
+      <class name="com.IMCL.tests.PostPaidPlan_BillsPageTest"/>
+      <class name="com.IMCL.tests.AddSchemeBasedPackValidationTest"/>
+      <class name="com.IMCL.tests.AddRenewChangeValidityPlanPageValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.IMCL.tests.AddAddOnPackValidationTest">
+        <methods>
+          <include name="testIsBulkActivateButtonPresent"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddAddOnPackValidationTest -->
+      <class name="com.IMCL.tests.ModifyCustomerPageTest">
+        <methods>
+          <include name="testModifyCustomerPageTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.ModifyCustomerPageTest -->
+      <class name="com.IMCL.tests.PostPaidPlan_BillsPageTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testPostPaidPlan_BillsPageTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.PostPaidPlan_BillsPageTest -->
+      <class name="com.IMCL.tests.ChangePasswordPageTest">
+        <methods>
+          <include name="testChangePasswordPageTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.ChangePasswordPageTest -->
+      <class name="com.IMCL.tests.AddSchemeBasedPackValidationTest">
+        <methods>
+          <include name="testAddSchemeBasedPackValidationTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddSchemeBasedPackValidationTest -->
+      <class name="com.IMCL.tests.AddBasePackValidationTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testAddBasePackValidationTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddBasePackValidationTest -->
+      <class name="com.IMCL.tests.AddPlansDisconnectPlanPageTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testAddPlansDisconnectPlanPageTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddPlansDisconnectPlanPageTest -->
+      <class name="com.IMCL.tests.AddCreditFromCardToTheAccountPlanPageTest">
+        <methods>
+          <include name="testAddCreditToTheAccountPlanPageTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddCreditFromCardToTheAccountPlanPageTest -->
+      <class name="com.IMCL.tests.AddCreditFromWalletToAccountPlanPage">
+        <methods>
+          <include name="testAddCreditFromWalletToAccountPlanPage"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddCreditFromWalletToAccountPlanPage -->
+      <class name="com.IMCL.tests.HardWareMenu1_RetrackTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testHardWareMenu_RetrackTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.HardWareMenu1_RetrackTest -->
+      <class name="com.IMCL.tests.ToDownloadReportSchedulesButtonTest">
+        <methods>
+          <include name="testToDownloadActivationButtonTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.ToDownloadReportSchedulesButtonTest -->
+      <class name="com.IMCL.tests.AddRenewChangeBasePackPlanValidationTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testAddRenewChangeBasePackPlanValidationTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddRenewChangeBasePackPlanValidationTest -->
+      <class name="com.IMCL.tests.AddRenewPlanPageValidationTest">
+        <methods>
+          <include name="testAddRenewPlanPageValidation"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddRenewPlanPageValidationTest -->
+      <class name="com.IMCL.tests.Plans_ReconnectThePlanPackTest">
+        <methods>
+          <include name="testPlans_ReconnectThePlanPackTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.Plans_ReconnectThePlanPackTest -->
+      <class name="com.IMCL.tests.ProfileChangingPageTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testChangingProfilePageTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.ProfileChangingPageTest -->
+      <class name="com.IMCL.tests.TickectsPageTest">
+        <methods>
+          <include name="testTickectsPageTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.TickectsPageTest -->
+      <class name="com.IMCL.tests.AddRenewHDBasePackPageValidationTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="testAddRenewHDBasePackPageValidationTest"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddRenewHDBasePackPageValidationTest -->
+      <class name="com.IMCL.tests.AddRenewChangeValidityPlanPageValidationTest">
+        <methods>
+          <include name="testAddRenewChangeValidityPlanPageValidationTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.AddRenewChangeValidityPlanPageValidationTest -->
+      <class name="com.IMCL.tests.PostPaidMenu_PostPaidPaymentPageTest">
+        <methods>
+          <include name="testPostPaidMenu_PastPaidPaymentPageTest"/>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.PostPaidMenu_PostPaidPaymentPageTest -->
+      <class name="com.IMCL.tests.DownloadRecepitsPageTest">
+        <methods>
+          <include name="initApplication"/>
+          <include name="closeFrameWork"/>
+          <include name="testDownloadRecepitsPageTest"/>
+        </methods>
+      </class> <!-- com.IMCL.tests.DownloadRecepitsPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

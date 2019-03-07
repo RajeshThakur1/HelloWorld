@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testProduct_AddBasePackPageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21091" started-at="2018-10-25T13:39:46Z" finished-at="2018-10-25T13:40:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21091" started-at="2018-10-25T13:39:46Z" finished-at="2018-10-25T13:40:07Z">
+      <class name="com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest">
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest@5a8e6209]" name="initApplication" is-config="true" duration-ms="36006" started-at="2018-10-25T19:09:10Z" finished-at="2018-10-25T19:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="FAIL" signature="testProduct_AddBasePackPageTest()[pri:0, instance:com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest@5a8e6209]" name="testProduct_AddBasePackPageTest" duration-ms="20344" started-at="2018-10-25T19:09:46Z" finished-at="2018-10-25T19:10:07Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "C:\Users\sande\Desktop\AutoITForHITS\addbasepack.exe": CreateProcess error=2, The system cannot find the file specified]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "C:\Users\sande\Desktop\AutoITForHITS\addbasepack.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at com.mobiotics.hits.product_AddBasePackPage.AddBasePackPage.addBasePack(AddBasePackPage.java:118)
+	at com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest.testProduct_AddBasePackPageTest(Product_AddBasePackPageTest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProduct_AddBasePackPageTest -->
+        <test-method status="PASS" signature="closeFrameWork()[pri:0, instance:com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest@5a8e6209]" name="closeFrameWork" is-config="true" duration-ms="2201" started-at="2018-10-25T19:10:07Z" finished-at="2018-10-25T19:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFrameWork -->
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

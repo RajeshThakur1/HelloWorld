@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HITS_LCO_Suite">
+  <test name="LCO_Test">
+    <classes>
+    
+      
+      <class name="com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Payment_ListPaymentPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Customer_CreateCustomerPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Customer_ListCustomerPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Customer_ModifyCustomerPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Product_AddBasePackPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Product_AddAla_CartePageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Product_ActivatePendingPlanPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Renew_AfterExpiryPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Renew_BeforeExpiryPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Report_ExpiryReportPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Report_JobReportPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Device_ListDevicePageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Device_OSDMessageServicePageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Device_RetrackActiveDevicePageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Device_RetrackDeActiveDevicePageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Device_HardWareReplacementPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Ticket_CreateTicketPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Ticket_ListTicketPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Profile_MyProfilePageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Profile_SubUserPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Profile_ModifySubUserPageTest"/>
+      <class name="com.mobiotics.hits.TESTCASES.Profile_ChangePaswdPageTest"/>
+            
+      
+    </classes>
+  </test> <!-- LCO_Test -->
+</suite> <!-- HITS_LCO_Suite -->

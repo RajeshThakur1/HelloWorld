@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminSubUser_ModifySubUserPack">
+        <methods>
+          <include name="subUserModifySubuserTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminSubUser_ModifySubUserPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListConnectionPack">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+          <include name="reportsCoreListConnectionTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListConnectionPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_AddBasePack">
+        <methods>
+          <include name="bulkAddBasePackTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_AddBasePack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.Operators_MSOList">
+        <methods>
+          <include name="getMSOListTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.Operators_MSOList -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsFinance_PayForBoxPack">
+        <methods>
+          <include name="reportsFinancePayForBoxTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportsFinance_PayForBoxPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBank_ListBankPack">
+        <methods>
+          <include name="adminBanklistBankTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBank_ListBankPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_ReconnectPack">
+        <methods>
+          <include name="bulkReconnectTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_ReconnectPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_RetrackPack">
+        <methods>
+          <include name="bulkCreateCustomerTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_RetrackPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_CreateCustomerPack">
+        <methods>
+          <include name="bulkCreateCustomerTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_CreateCustomerPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminSubUser_AddSubUserPack">
+        <methods>
+          <include name="subUserAddSubuserTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminSubUser_AddSubUserPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportCore_ListDevicePack">
+        <methods>
+          <include name="reportsCoreListDeviceTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportCore_ListDevicePack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_AddonTest">
+        <methods>
+          <include name="bulkAddOnTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_AddonTest -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_ExpiredRenewPack">
+        <methods>
+          <include name="bulkExpiredRenewTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_ExpiredRenewPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_HardwareReplacementPack">
+        <methods>
+          <include name="bulkHardwareReplacementTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_HardwareReplacementPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListSuspensionPack">
+        <methods>
+          <include name="reportsCoreListSuspensionTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListSuspensionPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.Operators_DPOList">
+        <methods>
+          <include name="getDPOListTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.Operators_DPOList -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportCore_JobReportPack">
+        <methods>
+          <include name="reportsCoreListDeviceTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportCore_JobReportPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminMessage_ListMessagePack">
+        <methods>
+          <include name="listMessageTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminMessage_ListMessagePack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_DisconnectPack">
+        <methods>
+          <include name="bulkDisconnectTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_DisconnectPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportCore_ListCustomerPack">
+        <methods>
+          <include name="reportsCoreListCustomerTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportCore_ListCustomerPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsFinance_ListPaymentPack">
+        <methods>
+          <include name="reportsFinanceListPaymentTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportsFinance_ListPaymentPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListActivationsPack">
+        <methods>
+          <include name="reportsCoreListActivationTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminReportsCore_ListActivationsPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_SendOSDPack">
+        <methods>
+          <include name="bulkSendOSDTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkHardware_SendOSDPack -->
+      <class name="com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_ExpiryRenewPack">
+        <methods>
+          <include name="bulkExpiryRenewTestPage"/>
+        </methods>
+      </class> <!-- com.mobiotics.HitsAdmin.TestCases.AdminBulkActivation_ExpiryRenewPack -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

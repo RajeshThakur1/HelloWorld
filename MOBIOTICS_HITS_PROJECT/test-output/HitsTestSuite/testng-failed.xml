@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HitsTestSuite]">
+  <test name="End-to-End Testing(failed)">
+    <classes>
+      <class name="com.mobiotics.hits.TESTCASES.Product_ActivatePendingPlanPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testProduct_ActivatePendingPlanPageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ActivatePendingPlanPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+          <include name="testProduct_ProductDisconnectPageTest"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ProductDisconnectPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Report_ExpiryReportPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testReport_ExpiryReportPageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Report_ExpiryReportPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_ListDevicePageTest">
+        <methods>
+          <include name="testDevice_ListDevicePageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_ListDevicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_RetrackDeActiveDevicePageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testDevice_RetrackDeActiveDevicePageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_RetrackDeActiveDevicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest">
+        <methods>
+          <include name="testPayment_PayForBoxPageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_PayForBoxPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Report_JobReportPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testReport_JobReportPageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Report_JobReportPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_RetrackActiveDevicePageTest">
+        <methods>
+          <include name="testDevice_RetrackActiveDevicePageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_RetrackActiveDevicePageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest">
+        <methods>
+          <include name="testPayment_AddPaymentPageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Payment_AddPaymentPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest">
+        <methods>
+          <include name="closeFrameWork"/>
+          <include name="testProduct_ProductReconnectPageTest"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Product_ProductReconnectPageTest -->
+      <class name="com.mobiotics.hits.TESTCASES.Device_OSDMessageServicePageTest">
+        <methods>
+          <include name="testDevice_OSDMessageServicePageTest"/>
+          <include name="closeFrameWork"/>
+          <include name="initApplication"/>
+        </methods>
+      </class> <!-- com.mobiotics.hits.TESTCASES.Device_OSDMessageServicePageTest -->
+    </classes>
+  </test> <!-- End-to-End Testing(failed) -->
+</suite> <!-- Failed suite [HitsTestSuite] -->
